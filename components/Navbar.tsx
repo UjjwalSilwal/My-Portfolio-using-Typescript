@@ -50,7 +50,7 @@ export default function Navbar() {
     <header className={`fixed w-full top-0 left-0 z-20 ${navScroll ? "bg-Glass backdrop-blur-sm" : ""}`}>
       <nav className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${showMenu ? "hidden" : ""}`}>
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-3xl text-WhiteGray">Mozorozov</Link>
+          <Link href="/" className="text-3xl text-WhiteGray">Ujjwal Silwal</Link>
           <div className="hidden md:flex items-center justify-center space-x-4">
             {navLinks.map(navLink => (
               <Link key={navLink.path} href={navLink.path} className={`text-lg uppercase font-medium TextShadow ${isActive(navLink.path)}`}>

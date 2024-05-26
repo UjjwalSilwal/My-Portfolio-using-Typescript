@@ -14,7 +14,7 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-        <title>Mozorozov | Portfolio</title>
+        <title>Ujjwal | Portfolio</title>
       </Head>
       <Wrapper pageIndex={3}>
         <div className="flex flex-col pt-40 items-center text-center">
@@ -22,7 +22,7 @@ export default function Portfolio() {
             - Portfolio
           </div>
           <div className="font-semibold text-3xl mt-8 text-White uppercase">
-            My Masterpiece Collections
+            My Masterpiece Collections/ Projects
           </div>
           <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl">
             I specialize in developing custom web applications that cater to
