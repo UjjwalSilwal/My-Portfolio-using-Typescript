@@ -43,7 +43,7 @@ export default function Portfolio() {
                     alt=""
                   />
                   <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
-                    <Link href="">
+                    <Link href="https://github.com/UjjwalSilwal?tab=repositories">
                       <AiFillGithub className="text-3xl hover:scale-110 transition-all duration-300" />
                     </Link>
                     <Link href="">

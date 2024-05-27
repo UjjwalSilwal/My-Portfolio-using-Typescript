@@ -12,7 +12,7 @@ export default function Home() {
           <div className="sm:h-2 sm:w-[38rem] xs:w-[19rem] rounded-sm bg-Orange"></div>
         </div>
         <div className="sm:text-[7.2rem] xs:text-7xl text-5xl text-White font-medium">Ujjwal Silwal</div>
-        <div className="uppercase font-bold xs:text-2xl text-xl text-Orange text-end mt-8">A Fullstack <br />developer</div>
+        <div className="uppercase font-bold xs:text-2xl text-xl text-Orange text-end mt-8">A Web <br />Developer</div>
       </Wrapper>
     </>
   );

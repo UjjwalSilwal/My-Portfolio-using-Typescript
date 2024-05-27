@@ -17,30 +17,30 @@ const navLinks: NavLink[] = [
 ];
 
 const services: ServiceProps[] = [
-  { id: 1, title: "UI/UX Design", icon: <BsVectorPen />, finished: 113 },
-  { id: 2, title: "Web Developmemt", icon: <BsCode />, finished: 209 },
-  { id: 3, title: "Web Research", icon: <HiMagnifyingGlass />, finished: 369 },
-  { id: 4, title: "Marketing", icon: <FiBarChart />, finished: 313 },
+  { id: 1, title: "UI/UX Design", icon: <BsVectorPen />, finished: 12 },
+  { id: 2, title: "Web Developmemt", icon: <BsCode />, finished: 20 },
+  { id: 3, title: "Web Research", icon: <HiMagnifyingGlass />, finished: 36 },
+  { id: 4, title: "Marketing", icon: <FiBarChart />, finished: 1 },
 ];
 const countUpItems: countUpItemsProps[] = [
   {
     id: 1,
-    number: 9,
+    number: 3,
     text: "Years of Experience",
   },
   {
     id: 2,
-    number: 178,
+    number: 10,
     text: "Satisfied Customers",
   },
   {
     id: 3,
-    number: 742,
+    number: 4,
     text: "Design Items",
   },
   {
     id: 4,
-    number: 112,
+    number: 1,
     text: "Clients Served",
   },
 ];
@@ -48,37 +48,53 @@ const countUpItems: countUpItemsProps[] = [
 const projects: ProjectProps[] = [
   {
     id: 1,
-    img: "/project1.png",
-    name: "Random Password Generator",
-    tools: ["React", "Typescript", "Tailwind CSS"],
+    img: "/project1.jpg",
+    name: "React ToDo App",
+    tools: ["React", "MongoDB", "Tailwind CSS", "FullStack"],
   },
   {
     id: 2,
     img: "/project2.jpg",
     name: "React E-commerce Website",
-    tools: ["React", "Tailwind CSS"],
+    tools: ["React", "Tailwind CSS", "FullStack"],
   },
   {
     id: 3,
     img: "/project3.jpg",
-    name: "Shopping Cart",
-    tools: ["React", "Redux-Toolkit", "Tailwind CSS"],
+    name: "Laravel ToDo App",
+    tools: ["Laravel", "PHP", "Blade", "FullStack"],
   },
   {
     id: 4,
     img: "/project4.jpg",
-    name: "Autocomplete SearchBar",
-    tools: ["React", "Typescript", "Tailwind CSS"],
+    name: "Book Recommendation System Using ML",
+    tools: ["Machine Learning", "User-Based Collaborative Filtering", "Python"],
   },
 ];
 
 const skills = [
-  { name: "HTML", level: 80 },
-  { name: "CSS", level: 70 },
+  { name: "HTML", level: 85 },
+  { name: "CSS", level: 80 },
   { name: "JavaScript", level: 75 },
-  { name: "TypeScript", level: 60 },
+  { name: "TypeScript", level: 50 },
   { name: "ReactJS", level: 75 },
   { name: "NextJS", level: 65 },
+  { name: "Tailwind CSS", level: 65 },
+  { name: "Python", level: 60 },
+  { name: "MySQL", level: 60 },
+  { name: "Bootstrap", level: 90 },
+  { name: "PHP", level: 80 },
+  { name: "REST APIs", level: 65 },
+  { name: "MERN stack", level: 75 },
+  { name: "NodeJS", level: 65 },
+  { name: "DSA", level: 40 },
+  { name: "JAVA", level: 65 },
+  { name: "C/C++", level: 98 },
+  { name: "MongoDB", level: 90 },
+  { name: "LARAVEL", level: 50 },
+  { name: "Visual Basic", level: 70 },
+  { name: "Machine Learning", level: 20 },
+  
 ];
 
 const contacts: ContactsProps[] = [
