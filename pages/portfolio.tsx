@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import { countUpItems } from "@/Data/Data";
 import MyCountUp from "@/components/CountUp";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 export default function Portfolio() {
   const {ref,inView} = useInView({
     threshold: 0.5
@@ -18,13 +19,13 @@ export default function Portfolio() {
       </Head>
       <Wrapper pageIndex={3}>
         <div className="flex flex-col pt-40 items-center text-center">
-          <div className="uppercase font-semibold text-sm text-WhiteGray">
-            - Portfolio
+          <div className="font-serif uppercase font-semibold text-sm text-WhiteGray">
+            My Portfolio
           </div>
           <div className="font-semibold text-3xl mt-8 text-White uppercase">
-            My Masterpiece Collections/ Projects
+            My Masterpiece Collections
           </div>
-          <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl">
+          <p className="font-mono text-WhiteGray  mt-8 leading-7 max-w-3xl">
             I specialize in developing custom web applications that cater to
             diverse business needs, from e-commerce platforms to data
             visualization dashboards, using the latest technologies and agile
@@ -38,7 +39,7 @@ export default function Portfolio() {
                 className="bg-Blur p-4  rounded-lg"
               >
                 <div className="w-full  relative group">
-                  <img
+                  <Image
                     src={project.img}
                     alt=""
                   />

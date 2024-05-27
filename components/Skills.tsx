@@ -39,8 +39,8 @@ export default function Skills({ skills }: SkillBarProps) {
   }, [progress]);
   return (
     <div>
-      <div className="text-WhiteGray font-semibold uppercase text-sm text-center">
-        - Skills
+      <div className="font-serif text-WhiteGray font-semibold uppercase text-sm text-center">
+         Skills
       </div>
       <div className="font-semibold text-3xl mt-4 text-center text-White">
         What I Expert

@@ -19,7 +19,7 @@ export default function contact() {
           <div className="uppercase md:text-4xl text-3xl md:tracking-widest tracking-wide font-semibold">
             Contact
           </div>
-          <p className="leading-8 mb-8 text-sm max-w-xl mt-10 text-WhiteGray">
+          <p className="font-mono leading-8 mb-8 max-w-xl mt-10 text-WhiteGray">
             If you&apos;re looking for a skilled frontend developer to help bring
             your web application ideas to life, feel free to contact me. Let&apos;s
             discuss how I can contribute to your team and deliver top-notch
@@ -29,7 +29,7 @@ export default function contact() {
             {contacts.map(contact => (
               <div className="mt-6" key={contact.id}>
                 <div className="text-xl font-medium mb-2">{contact.title}</div>
-                <div className="text-sm text-WhiteGray">{contact.text}</div>
+                <div className="text-sm text-WhiteGray italic">{contact.text}</div>
               </div>
             ))}
           </div>

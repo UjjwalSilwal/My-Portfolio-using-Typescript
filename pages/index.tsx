@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ujjwal's Portfolio</title>
+        <title>Ujjwal&apos;s Portfolio</title>
       </Head>
       <Wrapper pageIndex={1} className="max-w-3xl text-center flex flex-col justify-center">
         <div className="flex sm:justify-between items-center gap-4 sm:gap-0">

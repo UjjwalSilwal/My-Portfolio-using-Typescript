@@ -19,13 +19,13 @@ export default function about() {
             alt={"about image"}
           />
           <div className="lg:w-1/2 lg:ml-8 max-w-md md:max-w-xl">
-            <div className="uppercase font-semibold text-sm text-WhiteGray">
-              - Introduction
+            <div className="uppercase font-semibold text-sm text-WhiteGray font-serif">
+               About Me
             </div>
-            <div className="font-semibold text-3xl mt-8 text-White uppercase">
-              React Next Developer & FullStack Developer
+            <div className="font-semibold text-3xl mt-8 text-White uppercase ">
+              React Next Frontend Developer
             </div>
-            <p className="text-WhiteGray text-sm mt-8 leading-7">
+            <p className="font-mono text-WhiteGray mt-8 leading-7">
               {" "}
               I am a passionate frontend developer with a creative eye for
               design and a strong focus on delivering elegant and intuitive
