@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  distDir: 'build',  // Change the default build directory to 'build'
+  distDir: '.next',  // Use default directory to avoid issues
 }
 
 module.exports = nextConfig
