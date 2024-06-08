@@ -41,7 +41,7 @@ export default function Navbar() {
     }, 
     visible: {
       opacity: 1,
-      y: 300,
+      y: 200,
       transition: {
         delay: 0.7
       }
