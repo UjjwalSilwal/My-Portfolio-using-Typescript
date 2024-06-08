@@ -1,7 +1,9 @@
 import Wrapper from "@/components/Wrapper";
 import Head from "next/head";
+
 export default function Home() {
-  return (
+    return (
+    
     <>
       <Head>
         <title>Ujjwal&apos;s Portfolio</title>
@@ -11,7 +13,7 @@ export default function Home() {
           <div className="text-xl sm:text-3xl uppercase text-WhiteGray font-bold">Hi I&apos;m</div>
           <div className="sm:h-2 sm:w-[38rem] xs:w-[19rem] rounded-sm bg-Orange"></div>
         </div>
-        <div className="sm:text-[7.2rem] xs:text-7xl text-5xl text-White font-medium">Ujjwal Silwal</div>
+        <div className="sm:text-[7.2rem] xs:text-7xl text-5xl text-White font-medium" id="text">Ujjwal Silwal</div>
         <div className="uppercase font-bold xs:text-2xl text-xl text-Orange text-end mt-8">A Web <br />Developer</div>
       </Wrapper>
     </>

@@ -52,8 +52,8 @@ export default function Navbar() {
   )
   const socialClassNames = "text-3xl cursor-pointer text-White"
   return (
-    <header className={`fixed w-full top-0 left-0 z-20 ${navScroll ? "bg-Glass backdrop-blur-sm" : ""}`}>
-      <nav className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${showMenu ? "hidden" : ""}`}>
+    <header className={`fixed w-full top-0 left-0 z-20  ${navScroll ? "bg-Glass backdrop-blur-sm" : ""}`}>
+      <nav className={`max-w-9xl mx-auto px-4 sm:px-6 lg:px-8 ${showMenu ? "hidden" : ""}`}>
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-3xl text-WhiteGray"><AiOutlineBranches/></Link>
           <div className="hidden md:flex items-center justify-center space-x-4">
@@ -69,7 +69,7 @@ export default function Navbar() {
         </div>
       </nav>
       <motion.div variants={menuVariants} initial="hidden" animate={showMenu ? "visible": "hidden"}  className="bg-Black fixed top-0 right-0 w-16 h-16 rounded-full"></motion.div>
-      <motion.nav variants={navLinkVariants} animate={showMenu ? "visible" : "hidden"} className="h-screen md:hidden flex flex-col justify-center">
+      <motion.nav variants={navLinkVariants} animate={showMenu ? "visible" : "hidden"} className="md:hidden it text-center mt-20 pt-20 ">
         {navLinks.map(navLink => (
           <Link key={navLink.label} href={navLink.path} className={`block px-3 py-2 text-5xl font-medium ${isActive(navLink.path)}`} onClick={(prev) => setShowMenu(!prev)}>
             {navLink.label}

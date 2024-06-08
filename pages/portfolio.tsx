@@ -42,6 +42,9 @@ export default function Portfolio() {
                   <Image
                     src={project.img}
                     alt=""
+                    width={500} // You can adjust these values
+                    height={300} // You can adjust these values
+                    
                   />
                   <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
                     <Link href="https://github.com/UjjwalSilwal?tab=repositories">
